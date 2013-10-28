@@ -6,14 +6,14 @@ Conveniently interpolate arbitrary 2D grids using bicubic interpolation.
 
 [![bicubic-sample](https://nodei.co/npm/bicubic-sample.png?mini=true)](https://nodei.co/npm/bicubic-sample)
 
-## `sample = require('bicubic-sample')(getter)` ##
+### `sample = require('bicubic-sample')(getter)` ###
 
 Returns a `sample` function that you can pass points to.
 
 `getter` is a function which takes an `x` and `y` argument and should return
 the value at that point in space. These values will both always be integers.
 
-## `sample(x, y)` ##
+### `sample(x, y)` ###
 
 You can now pass any pair of x/y values to `sample` and get an interpolated
 result.
