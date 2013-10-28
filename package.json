@@ -1,7 +1,7 @@
 {
   "name": "bicubic-sample",
   "description": "Conveniently interpolate arbitrary 2D grids using bicubic interpolation",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "browser": "index.js",
   "dependencies": {
