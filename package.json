@@ -1,0 +1,21 @@
+{
+  "name": "bicubic-sample",
+  "description": "Conveniently interpolate arbitrary 2D grids using bicubic interpolation",
+  "version": "0.0.0",
+  "main": "index.js",
+  "browser": "index.js",
+  "dependencies": {
+    "bicubic": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://github.com/hughsk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/bicubic-sample"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/bicubic-sample/issues"
+  }
+}
